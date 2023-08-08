@@ -1,5 +1,8 @@
+from typing import List
+
 # time O(n)
 # space O(1)
+
 
 class Solution(object):
     def twoSum(self, nums, target):
