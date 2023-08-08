@@ -3,16 +3,16 @@
 
 
 class Solution:
-	def subtractProductAndSum(self, n: int) -> int:
-		product_of_digits = 1
-		sum_of_digits = 0
-		n_str = str(n) # convert the integer n to string for easy digit extraction
-		for digit_char in n_str:
-			digit = int(digit_char) # convert the string back to integer
-			product_of_digits *= digit
-			sum_of_digits += digit
-		difference = product_of_digits - sum_of_digits
-		return difference
+    def subtractProductAndSum(self, n: int) -> int:
+        product_of_digits = 1
+        sum_of_digits = 0
+        n_str = str(n) # convert the integer n to string for easy digit extraction
+        for digit_char in n_str:
+            digit = int(digit_char) # convert the string back to integer
+            product_of_digits *= digit
+            sum_of_digits += digit
+        difference = product_of_digits - sum_of_digits
+        return difference
 
 
 from functools import reduce
