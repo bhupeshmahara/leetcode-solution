@@ -1,5 +1,9 @@
 from typing import List
 
+
+# time O(n)
+# space O(n)
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         i = 1
