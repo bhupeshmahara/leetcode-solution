@@ -22,3 +22,8 @@ class Solution:
                 nums[j] = nums[i]
                 j += 1
         return j
+
+class Solution:
+	def removeDuplicates(self, nums: List[int]) -> List[int]:
+		unique = set(nums)
+		return list(unique)
