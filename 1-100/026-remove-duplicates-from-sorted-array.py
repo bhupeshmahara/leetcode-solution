@@ -1,3 +1,5 @@
+# 026-Remove-Duplicates-from-Sorted-Array.py
+
 from typing import List
 
 # time O(n)
@@ -22,8 +24,3 @@ class Solution:
                 nums[j] = nums[i]
                 j += 1
         return j
-
-class Solution:
-	def removeDuplicates(self, nums: List[int]) -> List[int]:
-		unique = set(nums)
-		return list(unique)
